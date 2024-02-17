@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background-color: #aaa;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    justify-content: space-between;
+}
+
+.header-text {
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    padding: .25rem .5rem;
+}
+
+.navbar-links a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+.navbar-links a:hover {
+    background-color: #666;
+}
