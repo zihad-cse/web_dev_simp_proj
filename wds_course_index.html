@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDS Testing Page</title>
     <style>
+        
+        .body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         .box {
             border: 1px solid #333;
             background-color: #888;
@@ -13,12 +22,11 @@
 
         .container {
             display: grid;
-            grid-template-columns: 100px 50px;
-            grid-template-rows: 100px 40px 25px;
+            grid-template-columns: 200px 200px;
+            grid-template-rows: 100px 100px 100px;
         }
 
         .box1 {
-
         }
 
         .box2 {
@@ -31,14 +39,16 @@
 
     </style>
 </head>
-<body>
+
+<body class="body">
     <div class="container">
-        <div class="box box1">1</div>
-        <div class="box box2">2</div>
-        <div class="box box3">3</div>
-        <div class="box box1">4</div>
-        <div class="box box2">5</div>
-        <div class="box box3">6</div>
+        <div class="box box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatum maxime a magni iure voluptatem laboriosam quidem beatae quod obcaecati?</div>
+        <div class="box box2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, obcaecati. Inventore animi laborum deleniti natus. Reprehenderit eaque quo eveniet autem!</div>
+        <div class="box box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ab.</div>
+        <div class="box box4">4</div>
+        <div class="box box5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt eos harum quasi esse architecto, quod modi possimus odio explicabo repellat tempore commodi autem sint reiciendis maiores nisi sed aliquid iure.10</div>
+        <div class="box box6">6</div>
     </div>
 </body>
+
 </html>
